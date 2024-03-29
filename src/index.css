@@ -1,13 +1,151 @@
 body {
+  font-family: "Pretendard";
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+  scrollbar-width: none; /* Firefox 스크롤바 숨김 */
+  -ms-overflow-style: none; /* IE/Edge 스크롤바 숨김 */
+}
+::-webkit-scrollbar {
+  display: none; /* 웹킷 브라우저에 대한 스크롤바 숨김 */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* text ================================================= */
+.h1 {
+  font-family: Pretendard;
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: center;
+}
+.h2 {
+  font-family: Pretendard;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 42px;
+  text-align: left;
+  color: #111111;
+}
+.body0 {
+  font-family: Pretendard;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.body1 {
+  font-family: Pretendard;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+}
+.sub0 {
+  font-family: Pretendard;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.sub1 {
+  font-family: Pretendard;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #333333;
+}
+.sub2 {
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+
+
+.h1m {
+  font-family: Pretendard;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: center;
+}
+.h2m {
+  font-family: Pretendard;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 34px;
+  color: #111111;
+}
+.h3m {
+  font-family: Pretendard;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.body0m {
+  font-family: Pretendard;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+}
+.body1m {
+  font-family: Pretendard;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+}
+.sub0m {
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.sub1m {
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #333333;
+}
+.sub2m {
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+.big-integerM {
+  font-family: Pretendard;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 64px;
+}
+.text-white {
+  color: white;
+}
+.text-gray {
+  color: rgba(173, 173, 173, 1);
+}
+.text-purple {
+  color: rgba(197, 73, 255, 1);
+}
+.text-dark-purple {
+  color: rgba(114, 20, 241, 1);
+}
+.text-gold {
+ color: rgba(251, 215, 89, 1);
+}
+.big-integer {
+  font-family: Pretendard;
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 100px;
+}
+/* ================================================= text */

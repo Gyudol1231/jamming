@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./components/Header";
+import HeaderM from "./components/HeaderM";
+import Main from "./components/Main";
+import MainM from "./components/MainM";
+
+import { useMediaQuery } from "react-responsive";
 
 function App() {
+  const isPC = useMediaQuery({
+    query: "(min-width: 1200px)",
+  });
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <>
+  {isPC ?
+    <>
+      <Header />
+      <Main />
+    </>
+    :
+    <>
+      <HeaderM />
+      <MainM />
+    </>
+  }
+  </>
   );
 }
 
